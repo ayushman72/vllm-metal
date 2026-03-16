@@ -20,6 +20,9 @@ jobs:
       uses: actions/checkout@v4
       with:
         submodules: recursive
+    
+    - name: Make lint script executable
+      run: chmod +x scripts/lint.sh
 
     - name: Lint
       run: |
@@ -38,6 +41,9 @@ jobs:
       uses: actions/checkout@v4
       with:
         submodules: recursive
+    
+    - name: Make test script executable
+      run: chmod +x scripts/test.sh
 
     - name: Test
       run: |
