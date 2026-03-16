@@ -28,7 +28,7 @@ For how to use the `vllm` CLI, please refer to the official vLLM guide.
 https://docs.vllm.ai/en/latest/cli/
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/vllm-project/ayushman72/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ayushman72/vllm-metal/main/install.sh | bash
 ```
 
 ## Reinstallation and Update
@@ -37,7 +37,7 @@ If the issue continues to occur in the latest release, please report the details
 (If you have installed it in a directory other than the default `~/.ayushman-vllm-metal`, substitute that path and run the command accordingly.)
 
 ```bash
-rm -rf ~/.ayushman-vllm-metal && curl -fsSL https://raw.githubusercontent.com/vllm-project/ayushman72/main/install.sh | bash
+rm -rf ~/.ayushman-vllm-metal && curl -fsSL https://raw.githubusercontent.com/ayushman72/vllm-metal/main/install.sh | bash
 ```
 
 ## Uninstall
