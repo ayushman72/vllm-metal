@@ -118,3 +118,4 @@ Environment variables for customization:
 ## Acknowledgements
 
 - The Metal paged attention kernels are currently adapted from [mistral.rs](https://github.com/EricLBuehler/mistral.rs) (MIT license), via [HuggingFace kernels-community](https://github.com/huggingface/kernels-community). We plan to develop custom kernels in the future.
+
